@@ -2,13 +2,195 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Portfolio </title>
+    <style type="text/tailwindcss">
+        .font-times-newroman {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
 </head>
 <body>
+<header class="border-b border-gray-200 bg-white dark:border-gray-800 dark:bg-gray-900">
+    <div class="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+        <a href="#" title="" class="flex text-xl">
+            <span class="font-bold text-gray-700 dark:text-gray-200">YNTK</span>
+            <span class="text-lime-600 dark:text-lime-500">.TS</span>
+        </a>
 
+        <div class="flex flex-1 items-center justify-end md:justify-between">
+            <nav aria-label="Global" class="hidden md:block">
+                <ul class="flex items-center gap-6 text-sm">
+                    <li>
+                        <a class="border-b-2 border-lime-500 pb-5 text-sm font-medium text-gray-900 dark:border-lime-400 dark:text-white"
+                           href="#"> Dashboard </a>
+                    </li>
+
+                    <li>
+                        <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                           href="#"> Teams </a>
+                    </li>
+
+                    <li>
+                        <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                           href="#"> Projects </a>
+                    </li>
+
+                    <li>
+                        <a class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                           href="#"> Calendar </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <div class="hidden sm:flex sm:gap-4">
+
+                    <a href="#" class="block shrink-0">
+                        <span class="sr-only">Profile</span>
+                        <img alt="Man"
+                             src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                             class="h-10 w-10 rounded-full object-cover"/>
+                    </a>
+                </div>
+
+                <button class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden dark:bg-gray-800 dark:text-white dark:hover:text-white/75">
+                    <span class="sr-only">Toggle menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-5" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="relative py-24 px-6 bg-gradient-to-br from-lime-600 via-green-600 to-emerald-600 overflow-hidden">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLW9wYWNpdHk9IjAuMSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-30"></div>
+    <div class="relative max-w-4xl mx-auto text-center">
+    <span class="inline-block px-4 py-2 bg-white/20 backdrop-blur rounded-full text-white text-sm font-medium mb-6">
+      ✨ New components added weekly
+    </span>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+            Muhamad Hilal
+        </h1>
+        <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Premium quality Tailwind CSS components that make your projects stand out.
+        </p>
+        <a href="#"
+           class="inline-flex items-center gap-2 px-8 py-4 bg-white text-lime-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-xl">
+            Explore Components
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<div>
+    <h1 class="text-6xl text-center mt-8 font-bold">Portofolio Saya</h1>
+    <div class="grid grid-cols-4 gap-4 px-14 py-8">
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800">
+            <div class="h-48 bg-gradient-to-br from-lime-500 to-lime-600"></div>
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Image Card</h3>
+                <p class="text-gray-600 dark:text-gray-300">A card with an image header section.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="py-12 px-6 bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div>
+            <h3 class="text-gray-900 dark:text-white font-semibold mb-4">Product</h3>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Features</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Pricing</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Changelog</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-gray-900 dark:text-white font-semibold mb-4">Company</h3>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Blog</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Careers</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-gray-900 dark:text-white font-semibold mb-4">Resources</h3>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Documentation</a>
+                </li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Help Center</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Guides</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="text-gray-900 dark:text-white font-semibold mb-4">Legal</h3>
+            <ul class="space-y-2 text-gray-600 dark:text-gray-400">
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Privacy</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Terms</a></li>
+                <li><a href="#" class="hover:text-gray-900 dark:hover:text-white transition-colors">Cookies</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-400">
+        <p>© 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
